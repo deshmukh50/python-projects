@@ -1,7 +1,6 @@
 import random
 
 print("Welcome to the Number Guessing Game!")
-
 number = random.randint(1, 10)
 
 # Ask the user again and again until guess is correct
@@ -15,6 +14,6 @@ while guess != number:
     elif guess > number:
         print("Too high, try again!")
     else:
-        print("Correct! 🎉 You guessed the number!")
+        print("Correct🎉 You guessed the number!")
 
 print("Game Over!")
